@@ -1,0 +1,913 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy|Open+Sans|Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    width: 100%;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 2000px;
+}
+
+header {
+    width: 100%;
+}
+
+header>div#head {
+    width: 100%;
+    position: relative;
+    z-index: 9999;
+}
+
+header>div#head>img {
+    width: 100%;
+    box-shadow: 1px 1px 10px #000;
+}
+
+header>div#head>span#title {
+    position: absolute;
+    left: 39%;
+    top: 35%;
+    color: #FFF;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 3.4vw;
+}
+
+header>div#head>a#menu {
+    text-decoration: none;
+    position: absolute;
+    left: 3%;
+    top: 38%;
+    color: #FFF;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2vw;
+}
+
+main {
+    width: 100%;
+}
+
+main>div#box {
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 10%;
+    background-image: linear-gradient(to right, rgba(100, 6, 6, 0.65) 0%, rgb(0, 0, 0, 0.65) 22%, rgb(0, 0, 0, 0.65) 78%, rgb(100, 6, 6, 0.65) 100%);
+    box-shadow: 1px 1px 10px #000;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+main>div#box>span#title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2vw;
+    color: #FFF;
+}
+
+main>div#box>div#prod1 {
+    width: 100%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+main>div#box>div#prod1>div#gold {
+    width: 12%;
+    display: inline-block;
+    margin: 3%;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5% 2% 10% 2%;
+    position: relative;
+    border-radius: 3px;
+}
+
+main>div#box>div#prod1>div#gold>img {
+    width: 100%;
+    -webkit-filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+    filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+}
+
+main>div#box>div#prod1>div#gold>span#name1 {
+    position: absolute;
+    left: 38%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod1>div#gold>span#name2 {
+    position: absolute;
+    left: 39%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod1>div#gold>span#name3 {
+    position: absolute;
+    left: 34%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod1>div#gold>span#name4 {
+    position: absolute;
+    left: 35%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod1>div#gold>button#b1 {
+    position: absolute;
+    top: 80%;
+    left: 7.5%;
+    width: 85%;
+    padding: 3%;
+    color: #343434;
+    background-color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    transition: 0.3s;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 0 0 20px rgba(0,0,0,.5);
+}
+
+main>div#box>div#prod1>div#gold>button#b2 {
+    position: absolute;
+    top: 80%;
+    left: 7.5%;
+    width: 85%;
+    padding: 3%;
+    color: #343434;
+    background-color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    transition: 0.3s;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 0 0 20px rgba(0,0,0,.5);
+}
+
+main>div#box>div#prod1>div#gold>button#b3 {
+    position: absolute;
+    top: 80%;
+    left: 7.5%;
+    width: 85%;
+    padding: 3%;
+    color: #343434;
+    background-color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    transition: 0.3s;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 0 0 20px rgba(0,0,0,.5);
+}
+
+main>div#box>div#prod1>div#gold>button#b4 {
+    position: absolute;
+    top: 80%;
+    left: 7.5%;
+    width: 85%;
+    padding: 3%;
+    color: #343434;
+    background-color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    transition: 0.3s;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 0 0 20px rgba(0,0,0,.5);
+}
+
+main>div#box>div#prod1>div#gold>button#b1:hover {
+    border-radius: 7px;
+}
+
+main>div#box>div#prod1>div#gold>button#b2:hover {
+    border-radius: 7px;
+}
+
+main>div#box>div#prod1>div#gold>button#b3:hover {
+    border-radius: 7px;   
+}
+
+main>div#box>div#prod1>div#gold>button#b4:hover {
+    border-radius: 7px;
+}
+
+
+
+main>div#box>div#prod2 {
+    width: 100%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+main>div#box>div#prod2>div#gold {
+    width: 12%;
+    display: inline-block;
+    margin: 3%;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5% 2% 10% 2%;
+    position: relative;
+    border-radius: 3px;
+}
+
+main>div#box>div#prod2>div#gold>img {
+    width: 40%;
+    -webkit-filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+    filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+}
+
+main>div#box>div#prod2>div#gold>span#name1 {
+    position: absolute;
+    left: 38%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod2>div#gold>span#name2 {
+    position: absolute;
+    left: 20%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod2>div#gold>span#name3 {
+    position: absolute;
+    left: 35%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod2>div#gold>span#name4 {
+    position: absolute;
+    left: 36%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod2>div#gold>button {
+    position: absolute;
+    top: 85%;
+    left: 7.5%;
+    width: 85%;
+    padding: 3%;
+    color: #343434;
+    background-color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    transition: 0.3s;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 0 0 20px rgba(0,0,0,.5);
+}
+
+main>div#box>div#prod2>div#gold>button:hover {
+    border-radius: 7px;
+}
+
+
+
+main>div#box>div#prod3 {
+    width: 100%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+main>div#box>div#prod3>div#gold {
+    width: 12%;
+    display: inline-block;
+    margin: 3%;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5% 2% 10% 2%;
+    position: relative;
+    border-radius: 3px;
+}
+
+main>div#box>div#prod3>div#gold>img {
+    width: 40%;
+    -webkit-filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+    filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+}
+
+main>div#box>div#prod3>div#gold>span#name1 {
+    position: absolute;
+    left: 38%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod3>div#gold>span#name2 {
+    position: absolute;
+    left: 20%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod3>div#gold>span#name3 {
+    position: absolute;
+    left: 32%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod3>div#gold>span#name4 {
+    position: absolute;
+    left: 28%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod3>div#gold>button {
+    position: absolute;
+    top: 85%;
+    left: 7.5%;
+    width: 85%;
+    padding: 3%;
+    color: #343434;
+    background-color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    transition: 0.3s;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 0 0 20px rgba(0,0,0,.5);
+}
+
+main>div#box>div#prod3>div#gold>button:hover {
+    border-radius: 7px;
+}
+
+
+
+main>div#box>div#prod4 {
+    width: 100%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+main>div#box>div#prod4>div#gold {
+    width: 12%;
+    display: inline-block;
+    margin: 3%;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5% 2% 10% 2%;
+    position: relative;
+    border-radius: 3px;
+}
+
+main>div#box>div#prod4>div#gold>img {
+    width: 42%;
+    -webkit-filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+    filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+}
+
+main>div#box>div#prod4>div#gold>span#name1 {
+    position: absolute;
+    left: 33%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod4>div#gold>span#name2 {
+    position: absolute;
+    left: 20%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod4>div#gold>span#name3 {
+    position: absolute;
+    left: 32%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod4>div#gold>span#name4 {
+    position: absolute;
+    left: 30%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod4>div#gold>button {
+    position: absolute;
+    top: 85%;
+    left: 7.5%;
+    width: 85%;
+    padding: 3%;
+    color: #343434;
+    background-color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    transition: 0.3s;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 0 0 20px rgba(0,0,0,.5);
+}
+
+main>div#box>div#prod4>div#gold>button:hover {
+    border-radius: 7px;
+}
+
+
+
+main>div#box>div#prod5 {
+    width: 100%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+main>div#box>div#prod5>div#gold {
+    width: 12%;
+    display: inline-block;
+    margin: 3%;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5% 2% 10% 2%;
+    position: relative;
+    border-radius: 3px;
+}
+
+main>div#box>div#prod5>div#gold>img {
+    width: 42%;
+    -webkit-filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+    filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+}
+
+main>div#box>div#prod5>div#gold>span#name1 {
+    position: absolute;
+    left: 33%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod5>div#gold>span#name2 {
+    position: absolute;
+    left: 36%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod5>div#gold>span#name3 {
+    position: absolute;
+    left: 33%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod5>div#gold>span#name4 {
+    position: absolute;
+    left: 32%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod5>div#gold>button {
+    position: absolute;
+    top: 85%;
+    left: 7.5%;
+    width: 85%;
+    padding: 3%;
+    color: #343434;
+    background-color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    transition: 0.3s;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 0 0 20px rgba(0,0,0,.5);
+}
+
+main>div#box>div#prod5>div#gold>button:hover {
+    border-radius: 7px;
+}
+
+
+
+main>div#box>div#prod6 {
+    width: 100%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+main>div#box>div#prod6>div#gold {
+    width: 12%;
+    display: inline-block;
+    margin: 3%;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5% 2% 10% 2%;
+    position: relative;
+    border-radius: 3px;
+}
+
+main>div#box>div#prod6>div#gold>img {
+    width: 42%;
+    -webkit-filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+    filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+}
+
+main>div#box>div#prod6>div#gold>span#name1 {
+    position: absolute;
+    left: 21%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod6>div#gold>span#name2 {
+    position: absolute;
+    left: 20%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod6>div#gold>span#name3 {
+    position: absolute;
+    left: 33%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod6>div#gold>span#name4 {
+    position: absolute;
+    left: 34%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod6>div#gold>button {
+    position: absolute;
+    top: 85%;
+    left: 7.5%;
+    width: 85%;
+    padding: 3%;
+    color: #343434;
+    background-color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    transition: 0.3s;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 0 0 20px rgba(0,0,0,.5);
+}
+
+main>div#box>div#prod6>div#gold>button:hover {
+    border-radius: 7px;
+}
+
+
+
+main>div#box>div#prod7 {
+    width: 100%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+main>div#box>div#prod7>div#gold {
+    width: 12%;
+    display: inline-block;
+    margin: 3%;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5% 2% 10% 2%;
+    position: relative;
+    border-radius: 3px;
+}
+
+main>div#box>div#prod7>div#gold>img {
+    margin-top: 30%;
+    width: 100%;
+    -webkit-filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+    filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+}
+
+main>div#box>div#prod7>div#gold>span#name1 {
+    position: absolute;
+    left: 13%;
+    top: 5%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod7>div#gold>span#name2 {
+    position: absolute;
+    left: 15%;
+    top: 5%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod7>div#gold>span#name3 {
+    position: absolute;
+    left: 13%;
+    top: 5%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod7>div#gold>span#name4 {
+    position: absolute;
+    left: 23%;
+    top: 5%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod7>div#gold>button {
+    position: absolute;
+    top: 85%;
+    left: 7.5%;
+    width: 85%;
+    padding: 3%;
+    color: #343434;
+    background-color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    transition: 0.3s;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 0 0 20px rgba(0,0,0,.5);
+}
+
+main>div#box>div#prod7>div#gold>button:hover {
+    border-radius: 7px;
+}
+
+
+
+main>div#box>div#prod8 {
+    width: 100%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+main>div#box>div#prod8>div#gold {
+    width: 12%;
+    display: inline-block;
+    margin: 3%;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5% 2% 10% 2%;
+    position: relative;
+    border-radius: 3px;
+}
+
+main>div#box>div#prod8>div#gold>img {
+    margin-top: 30%;
+    width: 100%;
+    -webkit-filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+    filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+}
+
+main>div#box>div#prod8>div#gold>span#name1 {
+    position: absolute;
+    left: 18%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod8>div#gold>span#name2 {
+    position: absolute;
+    left: 21%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod8>div#gold>span#name3 {
+    position: absolute;
+    left: 18%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod8>div#gold>span#name4 {
+    position: absolute;
+    left: 26%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod8>div#gold>button {
+    position: absolute;
+    top: 85%;
+    left: 7.5%;
+    width: 85%;
+    padding: 3%;
+    color: #343434;
+    background-color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    transition: 0.3s;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 0 0 20px rgba(0,0,0,.5);
+}
+
+main>div#box>div#prod8>div#gold>button:hover {
+    border-radius: 7px;
+}
+
+
+
+main>div#box>div#prod9 {
+    width: 100%;
+    margin-top: 2%;
+    text-align: center;
+}
+
+main>div#box>div#prod9>div#gold {
+    width: 12%;
+    display: inline-block;
+    margin: 3%;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 5% 2% 10% 2%;
+    position: relative;
+    border-radius: 3px;
+}
+
+main>div#box>div#prod9>div#gold>img {
+    margin-top: 30%;
+    width: 100%;
+    -webkit-filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+    filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+}
+
+main>div#box>div#prod9>div#gold>img#img1 {
+    margin-top: 30%;
+    width: 77%;
+    -webkit-filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+    filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+}
+
+main>div#box>div#prod9>div#gold>img#img2 {
+    margin-top: 30%;
+    width: 62%;
+    -webkit-filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+    filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+}
+
+main>div#box>div#prod9>div#gold>img#img3 {
+    margin-top: 30%;
+    width: 24%;
+    -webkit-filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+    filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+}
+
+main>div#box>div#prod9>div#gold>img#img4 {
+    margin-top: 30%;
+    width: 100%;
+    -webkit-filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+    filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+}
+
+main>div#box>div#prod9>div#gold>span#name1 {
+    position: absolute;
+    left: 30%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod9>div#gold>span#name2 {
+    position: absolute;
+    left: 32%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod9>div#gold>span#name3 {
+    position: absolute;
+    left: 18%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod9>div#gold>span#name4 {
+    position: absolute;
+    left: 8%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod9>div#gold>button {
+    position: absolute;
+    top: 85%;
+    left: 7.5%;
+    width: 85%;
+    padding: 3%;
+    color: #343434;
+    background-color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    transition: 0.3s;
+    border: none;
+    border-radius: 1px;
+    box-shadow: 0 0 20px rgba(0,0,0,.5);
+}
+
+main>div#box>div#prod9>div#gold>button:hover {
+    border-radius: 7px;
+}
