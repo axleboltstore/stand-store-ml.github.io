@@ -83,12 +83,241 @@ main>div#box>div#prod1>div#gold {
     padding: 30% 4% 30% 4%;
     position: relative;
     border-radius: 3px;
+    text-align: center;
 }
 
 main>div#box>div#prod1>div#gold>img {
     width: 100%;
     -webkit-filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
     filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+}
+
+main>div#box>div#prod1>div#gold>img#img1 {
+    width: 30%;
+    -webkit-filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+    filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+}
+
+main>div#box>div#prod1>div#gold>img#img2 {
+    margin-top: 15%;
+    width: 80%;
+    -webkit-filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+    filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+}
+
+main>div#box>div#prod1>div#gold>img#img3 {
+    margin-top: 15%;
+    width: 90%;
+    -webkit-filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+    filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+}
+
+main>div#box>div#prod1>div#gold>img#img4 {
+    margin-top: 15%;
+    width: 50%;
+    -webkit-filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+    filter: drop-shadow(1px 1px 3px rgb(255, 255, 255));
+}
+
+main>div#box>div#prod1>div#gold>span#name21 {
+    position: absolute;
+    left: 21%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod1>div#gold>span#name20 {
+    position: absolute;
+    left: 38%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod1>div#gold>span#name19 {
+    position: absolute;
+    left: 35%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod1>div#gold>span#name18 {
+    position: absolute;
+    left: 40%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod1>div#gold>span#name17 {
+    position: absolute;
+    left: 33%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod1>div#gold>span#name16 {
+    position: absolute;
+    left: 26%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod1>div#gold>span#name15 {
+    position: absolute;
+    left: 35%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod1>div#gold>span#name14 {
+    position: absolute;
+    left: 27%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod1>div#gold>span#name13 {
+    position: absolute;
+    left: 20%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod1>div#gold>span#name12 {
+    position: absolute;
+    left: 33%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod1>div#gold>span#name11 {
+    position: absolute;
+    left: 20%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod1>div#gold>span#name10 {
+    position: absolute;
+    left: 34%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod1>div#gold>span#name9 {
+    position: absolute;
+    left: 36%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod1>div#gold>span#name8 {
+    position: absolute;
+    left: 30%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod1>div#gold>span#name7 {
+    position: absolute;
+    left: 32%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+
+main>div#box>div#prod1>div#gold>span#name6 {
+    position: absolute;
+    left: 30%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod1>div#gold>span#name5 {
+    position: absolute;
+    left: 19%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod1>div#gold>span#name4 {
+    position: absolute;
+    left: 37%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod1>div#gold>span#name3 {
+    position: absolute;
+    left: 34%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
+}
+
+main>div#box>div#prod1>div#gold>span#name2 {
+    position: absolute;
+    left: 20%;
+    top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5vw;
+    color: rgb(238, 255, 0);
+    font-weight: bold;
 }
 
 main>div#box>div#prod1>div#gold>span#name1 {
@@ -142,6 +371,7 @@ main>div#box>div#buy>button {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.3vw;
     transition: 0.2s linear;
+    margin-left: 3%;
 }
 
 main>div#box>div#buy>button:hover {
